@@ -13,6 +13,9 @@ debian_basics_locale: en_US.UTF-8
 ```
 
 ## Example Playbook
+
+```
 - hosts: all
   roles:
     - benjiao.debian-basics
+```
