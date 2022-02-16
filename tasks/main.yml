@@ -1,0 +1,15 @@
+---
+- name: Install basic tools
+  become: true
+  apt:
+    pkg:
+      - locales
+      - wget
+      - vim
+      - htop
+
+- name: Ensure locale is set
+  become: true
+  locale_gen:
+    name: "{{ debian_basics_locale }}"
+    state: present
