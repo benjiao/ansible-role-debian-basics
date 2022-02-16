@@ -1,7 +1,7 @@
 ---
 dependencies: []
 galaxy_info:
-  role_name: debian-basics
+  role_name: debian_basics
   author: benjiao
   description: "Common setup for new Debian deployments"
   license: "license (BSD, MIT)"
