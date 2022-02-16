@@ -1,0 +1,13 @@
+---
+dependencies: []
+galaxy_info:
+  role_name: debian-basics
+  author: benjiao
+  description: "Common setup for new Debian deployments"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.4
+  platforms:
+    - name: Debian
+      versions:
+        - buster
+
